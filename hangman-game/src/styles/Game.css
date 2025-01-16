@@ -63,6 +63,11 @@ button.action:hover {
     background-color: #45a049; /* Slightly darker green on hover */
 }
 
+button.action:disabled{
+    background-color: #999;
+    color: white;
+}
+
 /* Style for the Game Over and Win buttons */
 button.game-over-win {
     background-color: #f44336; /* Red background */
@@ -81,6 +86,11 @@ button.next-word {
 
 button.next-word:hover {
     background-color: #1976D2; /* Darker blue on hover */
+}
+
+button.next-word:disabled {
+    background-color: #999;
+    color: white;
 }
 
 /* Style for the Restart Game button */
